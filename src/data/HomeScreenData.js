@@ -52,7 +52,10 @@ export const topProductsData = [
         image: "https://m.media-amazon.com/images/I/41o+HSvWQHL.jpg"
     },
     {
-        image: "https://m.media-amazon.com/images/G/31/img21/OHL_HMT/HnK/Unrec/HI/6._CB646625658_.jpg"
+        image: "https://m.media-amazon.com/images/I/71qhhTaFAGL.jpg"
+    },
+    {
+        image: "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Samsung/SamsungM/M12/New_Jupiter-1_updated.gif"
     },
     {
         image: "https://m.media-amazon.com/images/I/71zGXNYgYaL._UX569_.jpg"
