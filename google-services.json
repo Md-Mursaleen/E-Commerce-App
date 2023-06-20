@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1086606938507",
+    "project_id": "clone-c40dc",
+    "storage_bucket": "clone-c40dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086606938507:android:ce26108f394158d1b0df8e",
+        "android_client_info": {
+          "package_name": "com.amazon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086606938507-4mljbu7fdjdss912jomfku58pae9j1a3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amazon",
+            "certificate_hash": "f39e2e64e849ef74737edc1d60260c2501e138ef"
+          }
+        },
+        {
+          "client_id": "1086606938507-ffjpvc96lu7mpn7sdfit2t92sjis032o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amazon",
+            "certificate_hash": "1a8f99d28579bee0b251ff78667b8da583f3e545"
+          }
+        },
+        {
+          "client_id": "1086606938507-se9afpl763b809bdkf58v23t1ckg2d7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CSgA0rxoc_kC5Ogru6Lm03i-Cav_uyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086606938507-se9afpl763b809bdkf58v23t1ckg2d7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

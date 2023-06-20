@@ -1,5 +1,5 @@
-import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 const HomeTopProduct = ({ image, title }) => {
     return (
@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
     imageStyle: {
         marginTop: 8,
         width: "100%",
-        height: 380,
+        height: 270,
+        resizeMode: "contain",
         borderRadius: 5
     }
 });

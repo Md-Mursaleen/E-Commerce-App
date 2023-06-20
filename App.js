@@ -1,7 +1,8 @@
+import "expo-dev-client";
 import { useEffect } from "react";
 import { StyleSheet, View } from "react-native";
 import * as NavigationBar from "expo-navigation-bar";
-import BottomNavigation from "./src/navigation/BottomNavigation";
+import RootNavigation from "./src/navigation/RootNavigation";
 
 export default function App() {
   useEffect(() => {
@@ -10,7 +11,7 @@ export default function App() {
   }, []);
   return (
     <View style={styles.container}>
-      <BottomNavigation />
+      <RootNavigation />
     </View>
   );
 }

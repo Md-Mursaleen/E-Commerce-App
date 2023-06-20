@@ -1,15 +1,13 @@
-import { Image, ScrollView, StyleSheet, TextInput, View, Text } from "react-native";
 import React from "react";
+import { Image, ScrollView, StyleSheet, TextInput, View, Text } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import HomeAddress from "../components/HomeAddress";
+import { LinearGradient } from "expo-linear-gradient";
 import { categoriesData, dealOfTheDayBag, dealOfTheDayPhone, offerKitchenProducts, topOfferMobilesProducts } from "../data/HomeScreenData";
 import { topProductsData, offerHomeProducts, offerAppliancesProducts, offerBeautyProducts, dealElectronicsProducts } from "../data/HomeScreenData";
 import { topOfferHeadphoneProducts, topOfferWatchesProducts, offerSmartPhones, offerDiningProducts, dealMobilesProducts } from "../data/HomeScreenData";
+import HomeAddress from "../components/HomeAddress";
 import HomeCategories from "../components/HomeCategories";
 import HomeCarousel from "../components/HomeCarousel";
-import { LinearGradient } from "expo-linear-gradient";
 import HomeTopProducts from "../components/HomeTopProducts";
 import HomeOfferProducts from "../components/HomeOfferProducts";
 import HomeTopProduct from "../components/HomeTopProduct";
@@ -17,6 +15,8 @@ import HomeTopOfferProducts from "../components/HomeTopOfferProducts";
 import HomeDealOfTheDayProduct from "../components/HomeDealOfTheDayProduct";
 import HomeDealProducts from "../components/HomeDealProducts";
 import HomeProduct from "../components/HomeProduct";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 const HomeScreen = () => {
     return (
@@ -79,15 +79,15 @@ const HomeScreen = () => {
                         </View>
                         <View style={styles.topProductContainer}>
                             <HomeTopProduct title="Look sharp with these grooming essentials | Explore more"
-                                image="https://m.media-amazon.com/images/I/81ttAC9TsaL._SL1500_.jpg" />
+                                image="https://m.media-amazon.com/images/I/81jUGgWxHiL.jpg" />
                         </View>
                         <View style={styles.dealProductsContainer}>
                             <HomeDealProducts title1={"Deals for you in Cell Phones and Accessories"} title2={""} dealProducts={dealMobilesProducts} />
                             <Text style={styles.bottomText}>See all deals</Text>
                         </View>
                         <View style={styles.topProductContainer}>
-                            <HomeTopProduct title="iQOO 11 5G - World's Fastest Smartphone | Notify me"
-                                image="https://www.91-cdn.com/hub/wp-content/uploads/2023/01/iQOO-11-launch-date-expected-specifications-price.jpg" />
+                            <HomeTopProduct title="iQOO Neo 7 Pro 5G - World's Fastest Smartphone | Notify me"
+                                image="https://cdn.zeebiz.com/sites/default/files/2023/06/13/246918-iqooneo7pro5g.jpg" />
                         </View>
                         <View style={styles.topOfferProductContainer}>
                             <HomeTopOfferProducts title1={"Up to 50% off | Watch straps, wireless"} title2={"doorbells & more"} topOfferProducts={topOfferWatchesProducts} />

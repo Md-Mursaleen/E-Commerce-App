@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet, TextInput, Pressable, ScrollView } from "react-native";
 import React from "react";
-import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import HomeAddress from "../components/HomeAddress";
-import CartItems from "../components/CartItems";
+import { View, Text, StyleSheet, TextInput, Pressable, ScrollView } from "react-native";
 import { cartData } from "../data/CartScreenData";
 import { LinearGradient } from "expo-linear-gradient";
+import HomeAddress from "../components/HomeAddress";
+import CartItems from "../components/CartItems";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 const CartScreen = () => {
     return (

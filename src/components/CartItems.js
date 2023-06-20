@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, Image, Pressable } from "react-native";
 import React from "react";
+import { View, Text, StyleSheet, Image, Pressable } from "react-native";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
 const CartItems = ({ title, image, price, border }) => {
@@ -10,7 +10,7 @@ const CartItems = ({ title, image, price, border }) => {
                     <Image source={{ uri: image }} style={styles.imageStyle} />
                 </View>
                 <View style={styles.infoContainer}>
-                    <Text style={styles.titleText}>{title}</Text>
+                    <Text style={styles.titleText} numberOfLines={3}>{title}</Text>
                     <Text style={styles.priceText}>₹{price}</Text>
                     <Text style={styles.deliveryText}>Eligible for FREE Shipping</Text>
                 </View>

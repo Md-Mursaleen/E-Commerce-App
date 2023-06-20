@@ -1,11 +1,14 @@
 {
   "expo": {
-    "name": "amazon-clone",
+    "name": "Amazon",
     "slug": "amazon-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.amazon",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab0a4207-4bc4-4798-b2e3-cbde475028d4"
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
-import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 const HomeDealOfTheDayProduct = ({ dealOfTheDayProduct }) => {
     return (
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
     offerTextContainer: {
         width: 92,
-        height: 26,
+        height: 27,
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#c60000",

@@ -1,10 +1,10 @@
-import { View, StyleSheet, TextInput, ScrollView } from "react-native";
 import React from "react";
-import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import MenuItems from "../components/MenuItems";
+import { View, StyleSheet, TextInput, ScrollView } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { menuData } from "../data/MenuScreenData";
+import MenuItems from "../components/MenuItems";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 const MenuScreen = () => {
     return (

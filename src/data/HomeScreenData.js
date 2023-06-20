@@ -20,8 +20,8 @@ export const categoriesData = [
 ];
 export const carouselData = [
     "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/a/AmazonStores/A21TJRUUN4KGV/b0e19c2dbd14707f031f1f4ffd074c6b.w3000.h1680.jpg",
-    "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Jupiter21/phase1/pc111/Header-PC_phrase-1no-prime-_PC_01.gif",
     "https://images-na.ssl-images-amazon.com/images/G/31/Symbol/2020/00NEW/1242_450Banners/PL31_copy._CB432483346_.jpg",
+    "https://imgk.timesnownews.com/story/1569154999-amazon-great-indian-festival-sale-phone-banner.jpg?tr=w-1200,h-900",
     "https://www.shopickr.com/wp-content/uploads/2015/06/amazon-india-fashion-sale-70-percent-off-deals-coupons-6-6-2015-555x250.jpg",
     "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/KoreanStore/Faceshop750X375-banner._CB445933045_.jpg",
     "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b2a09e33-6e2e-4216-84fb-5c98c680d92e.__CR0,0,970,600_PT0_SX970_V1___.jpg"
@@ -34,6 +34,9 @@ export const topProductsData = [
         image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b9a162dc-3794-47cc-aaf6-2a44c75472f0.__CR0,0,2500,2500_PT0_SX300_V1___.jpg"
     },
     {
+        image: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/Neo7Pro/19thJune/Neo7Pro-Intrigue_01.jpg"
+    },
+    {
         image: "https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Manish/BAU/MARCH/Cricket_TV_Season/Win_Win_Deals/tiles-for-slicing_09.jpg"
     },
     {
@@ -41,6 +44,9 @@ export const topProductsData = [
     },
     {
         image: "https://m.media-amazon.com/images/G/31/img21/OHL_HMT/HnK/Unrec/Furniture/B08MB4TMRD._CB646623997_.jpg"
+    },
+    {
+        image: "https://images-eu.ssl-images-amazon.com/images/G/31/tiyesum/iQOObrandstore/slices/June/Neo7Pro/Neo7Pro-Intrigue_01.jpg"
     },
     {
         image: "https://m.media-amazon.com/images/I/61tqEyGAZqL._SX522_.jpg"
@@ -61,6 +67,9 @@ export const topProductsData = [
         image: "https://m.media-amazon.com/images/I/71zGXNYgYaL._UX569_.jpg"
     },
     {
+        image: "https://m.media-amazon.com/images/I/71QDnQWrVNL.jpg"
+    },
+    {
         image: "https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Manish/BAU/MARCH/Cricket_TV_Season/Win_Win_Deals/tiles-for-slicing_10.jpg"
     },
     {
@@ -69,14 +78,14 @@ export const topProductsData = [
 ];
 export const offerKitchenProducts = [
     {
-        image: "https://m.media-amazon.com/images/I/51df0s6DzmL._SL1280_.jpg",
-        text1: "Starting \u20B9149 | Fitness",
-        text2: "accessories"
-    },
-    {
-        image: "https://m.media-amazon.com/images/I/412XC6OwAbL.jpg",
+        image: "https://m.media-amazon.com/images/I/41kv0l+Wn6L._AC_.jpg",
         text1: "Starting \u20B9149 | Cleaning",
         text2: "supplies"
+    },
+    {
+        image: "https://images-na.ssl-images-amazon.com/images/G/01/sports/gshettyy/storefront_icons/xcm_banners_ev_pd22-events-category-bubble-sobe-treadmill-320x320-k6uuw-3v99l168vf-1-t4j27-remx8-6j4e0-84ze5-ol105-kpujt-45d5q_320x320_us-en.jpg",
+        text1: "Starting \u20B9149 | Fitness",
+        text2: "accessories"
     },
     {
         image: "https://m.media-amazon.com/images/I/513Zm8Fmw3L._SX522_.jpg",
@@ -84,14 +93,14 @@ export const offerKitchenProducts = [
         text2: ""
     },
     {
-        image: "https://i0.wp.com/blog.treasurie.com/wp-content/uploads/2021/01/types-of-irons-2.jpg",
+        image: "https://m.media-amazon.com/images/I/71WKuwx5DVL.jpg",
         text1: "Starting \u20B9525 | Irons",
         text2: ""
     }
 ];
 export const offerBeautyProducts = [
     {
-        image: "https://savvytokyo.scdn3.secure.raxcdn.com/app/uploads/2022/09/Fall_MakeUp.jpg",
+        image: "https://www.southindiafashion.com/wp-content/uploads/2020/03/Our-Top-Picks-Makeup-Products.jpg",
         text1: "Starting \u20B999 | Make up",
         text2: ""
     },
@@ -135,12 +144,12 @@ export const offerHomeProducts = [
 ];
 export const offerSmartPhones = [
     {
-        image: "https://i.gadgets360cdn.com/large/realme_narzo_n53_realme_1_1683881514263.jpg",
+        image: "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/vinambia/N53flashsalelive1/Mob_1.jpg",
         text1: "realme narzo N53 | Next",
-        text2: "sale soon"
+        text2: "\u20B916,999"
     },
     {
-        image: "https://st1.techlusive.in/wp-content/uploads/2023/05/redmi-a2-sale.jpg",
+        image: "https://sota.kh.ua/image/data/Xiaomi-3/Redmi-A2-dscrp-01.png",
         text1: "Redmi A2 | Starting",
         text2: "\u20B96,299"
     },
@@ -214,8 +223,8 @@ export const topOfferWatchesProducts = [
     {
         image1: "https://cdn.shopify.com/s/files/1/0997/6284/products/2_21ddadab-3aa9-4d8f-b5fc-0a783faa76dc_1900x.png?v=1672140533",
         image2: "https://m.media-amazon.com/images/I/61fE+NJdbvL._SX679_.jpg",
-        image3: "https://cdn.shopify.com/s/files/1/0997/6284/products/12_33717606-822b-4533-891b-3731d02e998d_1900x.png?v=1676956498",
-        image4: "https://cdn.shopify.com/s/files/1/0997/6284/products/HaloLeatherBrown_grande.png?v=1676978953",
+        image3: "https://cdn.shopify.com/s/files/1/0997/6284/products/Black-Qube_738be1ea-8c1c-4c62-a82d-0a4c44749c62_grande.png?v=1679560812",
+        image4: "https://cdn.shopify.com/s/files/1/0997/6284/products/1_c0e16026-ff05-4f5e-920a-2c0266011873_480x.png?v=1686911647",
         image5: "https://cdn.shopify.com/s/files/1/0997/6284/products/G3_8d1bf663-fd82-4b91-a24e-49f7a3713082_480x.png?v=1669195557",
         image6: "https://m.media-amazon.com/images/I/51U5mDn23zL._AC_UL400_.jpg",
         image7: "https://cdn.shopify.com/s/files/1/0997/6284/files/Carousel-500x500-Metal-Grey-3_480x.png?v=1682944279",

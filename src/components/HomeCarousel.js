@@ -1,5 +1,5 @@
-import { View, StyleSheet } from "react-native";
 import React from "react";
+import { View, StyleSheet } from "react-native";
 import { SliderBox } from "react-native-image-slider-box";
 import { carouselData } from "../data/HomeScreenData";
 

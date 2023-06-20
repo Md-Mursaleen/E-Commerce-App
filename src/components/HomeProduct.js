@@ -1,5 +1,5 @@
-import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { Image, StyleSheet, Text, View } from "react-native";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 const HomeProduct = ({ image, text1, text2, price }) => {
@@ -7,18 +7,10 @@ const HomeProduct = ({ image, text1, text2, price }) => {
         return string?.length > n ? string.substr(0, n - 1) + "..." : string;
     }
     const ratingsData = [
-        {
-            name: "star"
-        },
-        {
-            name: "star"
-        },
-        {
-            name: "star"
-        },
-        {
-            name: "star"
-        }
+        { name: "star" },
+        { name: "star" },
+        { name: "star" },
+        { name: "star" }
     ];
     return (
         <View style={styles.container}>
